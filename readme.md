@@ -13,9 +13,12 @@ virtualenv venv
 
 source venv/bin/activate
 
-- Install dependencies
+- Install dependencies 
 
-pip install streamlit pandas
+pip freeze > requirements.txt
+pip install -r requirements.txt
+pip install python-dotenv
+
 
 #### Some helpful links and guides:
 
