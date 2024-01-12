@@ -1,3 +1,22 @@
+# This looks to create a website to see the balances of an address.
+
+- First install streamlit and virtualenv so that it can be used to run python and set up a virtual environment for dependencies
+
+pip install streamlit
+pip install virtualenv
+
+- Setup your virtual environment. The terminal and folder should reflect the virtual environment created, in this case it is venv.
+
+virtualenv venv
+
+- Activate your virtual environment
+
+source venv/bin/activate
+
+- Install dependencies
+
+pip install streamlit pandas
+
 #### Some helpful links and guides:
 
 - Need to get set up with a node to query data? [link](https://docs.alchemy.com/docs/alchemy-quickstart-guide)
